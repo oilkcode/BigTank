@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhnte5fv21duu"]
+
+[ext_resource type="Script" uid="uid://v5pqad3pkxbl" path="res://01-code/BtNodeRoot.cs" id="1_vutq0"]
+
+[node name="_root" type="Node"]
+script = ExtResource("1_vutq0")
