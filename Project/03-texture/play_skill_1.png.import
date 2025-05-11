@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1vorana4s3ee"
-path.s3tc="res://.godot/imported/play_skill_1.png-25d8980fbf6fff8ce622f6f850640a6e.s3tc.ctex"
+path.s3tc="res://.godot/imported/play_skill_1.png-2246cad293e54eef70c3f3fb191405e8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://03-texture/play_skill_1.png"
-dest_files=["res://.godot/imported/play_skill_1.png-25d8980fbf6fff8ce622f6f850640a6e.s3tc.ctex"]
+source_file="res://03-Texture/play_skill_1.png"
+dest_files=["res://.godot/imported/play_skill_1.png-2246cad293e54eef70c3f3fb191405e8.s3tc.ctex"]
 
 [params]
 
