@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://swjc0irikwe4"]
+
+[ext_resource type="Script" uid="uid://b1sx03kvtgk2y" path="res://01-code/UISwitchScene.cs" id="1_l0elr"]
+
+[node name="UISwitchScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l0elr")
+
+[node name="UIBtnScene1" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -8.0
+offset_bottom = 8.0
+grow_horizontal = 0
+text = "Scene1"
+
+[node name="UIBtnScene2" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -100.0
+offset_top = 54.0
+offset_bottom = 94.0
+grow_horizontal = 0
+text = "Scene2"
