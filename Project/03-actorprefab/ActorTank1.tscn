@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf1is7dfx1sle"]
+
+[ext_resource type="Script" uid="uid://dhhq84sxcgtgj" path="res://01-Code/BtActorTank.cs" id="1_5ytfy"]
+[ext_resource type="Texture2D" uid="uid://cb5rw6y4rsa2g" path="res://05-texture/player21.png" id="1_8r35r"]
+[ext_resource type="Script" uid="uid://bwyo4hxn64j4o" path="res://01-Code/BtCompMove.cs" id="3_32bls"]
+
+[node name="ActorTank1" type="Node"]
+script = ExtResource("1_5ytfy")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+texture = ExtResource("1_8r35r")
+
+[node name="CompMove" type="Node3D" parent="."]
+script = ExtResource("3_32bls")

@@ -1,9 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://dhnte5fv21duu"]
+[gd_scene load_steps=4 format=3 uid="uid://dhnte5fv21duu"]
 
-[ext_resource type="Script" uid="uid://v5pqad3pkxbl" path="res://01-code/BtNodeRoot.cs" id="1_vutq0"]
-[ext_resource type="PackedScene" uid="uid://swjc0irikwe4" path="res://04-ui/UISwitchScene.tscn" id="2_ppi56"]
+[ext_resource type="Script" uid="uid://v5pqad3pkxbl" path="res://01-Code/BtNodeRoot.cs" id="1_vutq0"]
+[ext_resource type="PackedScene" uid="uid://swjc0irikwe4" path="res://04-uiprefab/UISwitchScene.tscn" id="2_ppi56"]
+[ext_resource type="PackedScene" uid="uid://b6sdpwlj61627" path="res://04-uiprefab/UIMain.tscn" id="3_v2hsx"]
 
 [node name="_root" type="Node"]
 script = ExtResource("1_vutq0")
+
+[node name="UIMain" parent="." instance=ExtResource("3_v2hsx")]
 
 [node name="UISwitchScene" parent="." instance=ExtResource("2_ppi56")]

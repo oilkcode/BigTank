@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6sdpwlj61627"]
+
+[ext_resource type="Script" uid="uid://4ciy256vggke" path="res://01-Code/UiMain.cs" id="1_j6h68"]
+
+[node name="UIMain" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j6h68")
+
+[node name="UIPosX" type="Label" parent="."]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 23.0
+text = "6838452"
+
+[node name="UIPosY" type="Label" parent="."]
+layout_mode = 0
+offset_top = 24.0
+offset_right = 128.0
+offset_bottom = 47.0
+text = "6838452"
+
+[node name="UIPosZ" type="Label" parent="."]
+layout_mode = 0
+offset_top = 48.0
+offset_right = 128.0
+offset_bottom = 71.0
+text = "6838452"

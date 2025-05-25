@@ -16,14 +16,7 @@ public partial class BtNodeRoot : Node
 	//----------------------------------------------------------------------------------------
 	public override void _Process(double delta)
 	{
-		if (Input.IsActionPressed("move_forward"))
-		{
-			ChangeScene("scene1");
-		}
-		else if (Input.IsActionPressed("move_backward"))
-		{
-			ChangeScene("scene2");
-		}
+
 	}
 	//----------------------------------------------------------------------------------------
 	//系统设置
