@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dhhq84sxcgtgj" path="res://01-Code/BtActorTank.cs" id="1_5ytfy"]
 [ext_resource type="Texture2D" uid="uid://cb5rw6y4rsa2g" path="res://05-texture/player21.png" id="1_8r35r"]
-[ext_resource type="Script" uid="uid://bwyo4hxn64j4o" path="res://01-Code/BtCompMove.cs" id="3_32bls"]
+[ext_resource type="Script" uid="uid://bhh66a4rw387" path="res://01-Code/BtCompMove.cs" id="3_32bls"]
 
 [node name="ActorTank1" type="Node"]
 script = ExtResource("1_5ytfy")

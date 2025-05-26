@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bgba1466og0ob" path="res://01-Code/BtNodeCamera.cs" id="1_oevjb"]
 [ext_resource type="Texture2D" uid="uid://khqb56ptoevb" path="res://05-texture/origin_202105012019382251.jpg" id="2_lj2nq"]
 [ext_resource type="Texture2D" uid="uid://3wguqivhf4w0" path="res://05-texture/1621928784_819812.jpg" id="3_c7rl2"]
-[ext_resource type="PackedScene" uid="uid://cf1is7dfx1sle" path="res://03-actorprefab/ActorTank1.tscn" id="4_pjl5i"]
+[ext_resource type="PackedScene" uid="uid://c25hgdvycvey" path="res://03-actorprefab/TankA.tscn" id="4_pjl5i"]
 
 [node name="Node3D" type="Node3D"]
 
@@ -18,4 +18,4 @@ texture = ExtResource("2_lj2nq")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.40533, 0, -11.8778)
 texture = ExtResource("3_c7rl2")
 
-[node name="ActorTank1" parent="." instance=ExtResource("4_pjl5i")]
+[node name="TankA" parent="." instance=ExtResource("4_pjl5i")]
