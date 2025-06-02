@@ -1,18 +1,18 @@
-[gd_scene load_steps=7 format=3 uid="uid://c25hgdvycvey"]
+[gd_scene load_steps=7 format=3 uid="uid://dkkl02xyl22ph"]
 
 [ext_resource type="Script" uid="uid://dhhq84sxcgtgj" path="res://01-Code/BtActorTank.cs" id="1_5jsck"]
 [ext_resource type="Script" uid="uid://byai1xhiowyve" path="res://01-Code/BtCompAttr.cs" id="2_cb07u"]
-[ext_resource type="Texture2D" uid="uid://cb5rw6y4rsa2g" path="res://05-texture/player21.png" id="2_gam2o"]
 [ext_resource type="Script" uid="uid://bhh66a4rw387" path="res://01-Code/BtCompMove.cs" id="2_llr4r"]
+[ext_resource type="Texture2D" uid="uid://cxn1kfgbaq62d" path="res://05-texture/tank_main1.png" id="2_psuhv"]
 [ext_resource type="Script" uid="uid://cnxf36fig4pjn" path="res://01-Code/BtCompModel.cs" id="2_venbr"]
 [ext_resource type="Script" uid="uid://b3xj2au7aq8oi" path="res://01-Code/BtCompInput.cs" id="3_cb07u"]
 
-[node name="TankA" type="Node3D"]
+[node name="TankB" type="Node3D"]
 script = ExtResource("1_5jsck")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
-texture = ExtResource("2_gam2o")
+texture = ExtResource("2_psuhv")
 
 [node name="CompAttr" type="Node" parent="."]
 script = ExtResource("2_cb07u")
@@ -23,7 +23,7 @@ MySprite = NodePath("../Sprite3D")
 
 [node name="CompInput" type="Node" parent="." node_paths=PackedStringArray("MyCompMove")]
 script = ExtResource("3_cb07u")
-MyInputType = 1
+MyInputType = 2
 MyCompMove = NodePath("../CompMove")
 
 [node name="CompMove" type="Node" parent="." node_paths=PackedStringArray("MyCompModel")]
